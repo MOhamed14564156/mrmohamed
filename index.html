@@ -1,0 +1,401 @@
+<html dir="rtl" lang="ar">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>
+   محمد الشافعي
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Cairo", sans-serif;
+    }
+    .f1{
+      width: 100%;
+      height: 70vh;
+    }
+    .text-center {
+    text-align: center !important;
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px important;
+    }
+    .text-gray-900{
+      color: rgb(253 224 71) ;
+    }
+    .ico{
+      margin: 0 10px;
+    }
+    .didi{
+      text-align: center;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    }
+    footer{
+      text-align: center;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900 transition-colors duration-500" id="body">
+  <!-- Top bar -->
+  <header class="flex items-center justify-between px-4 py-2 border-b border-yellow-400 max-w-7xl mx-auto" id="header">
+   <div class="flex items-center space-x-4 space-x-reverse">
+    <button class="bg-yellow-400 text-white text-sm font-semibold rounded px-4 py-2 flex items-center gap-2" id="lostAccountBtn">
+     <i class="fas fa-user-lock">
+     </i>
+     <span>
+      فقدت حسابك؟
+     </span>
+    </button>
+    <a class="text-cyan-500 text-sm font-semibold flex items-center gap-1" href="#" id="loginLink">
+     <i class="fas fa-sync-alt">
+     </i>
+     <span>
+      تسجيل الدخول
+     </span>
+    </a>
+   </div>
+   <div class="flex items-center gap-4">
+    <button aria-label="تبديل الوضع الداكن" class="ico flex items-center justify-center w-8 h-8 rounded-full bg-cyan-400 text-white hover:bg-cyan-500 transition" id="darkModeToggle" title="تبديل الوضع الداكن">
+     <i class="fas fa-moon" id="darkModeIcon">
+     </i>
+    </button>
+    <!-- <img alt="رمز تسجيل الدخول" class="w-6 h-6" height="24" src="https://storage.googleapis.com/a1aa/image/5349d263-f985-41d5-2b30-6d8a942a306e.jpg" width="24"/> -->
+   </div>
+   <div>
+    <img alt="شعار محمد الشافعي" class="w-20 h-auto" height="40" src="imgs/istockphoto-1001264912-612x612.jpg" width="80"/>
+   </div>
+  </header>
+  <!-- Main content -->
+  <main class="f1 max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-center gap-12" id="mainContent">
+   <!-- Left image with orange circle -->
+   <div class="relative flex justify-center items-center w-64 h-64 md:w-80 md:h-80">
+    <div class="absolute rounded-full border-4 border-dashed border-yellow-400 w-64 h-64 md:w-80 md:h-80" style="border-style: dashed;">
+    </div>
+    <div class="absolute rounded-full bg-yellow-400 opacity-30 w-56 h-56 md:w-72 md:h-72">
+    </div>
+    <img alt="رجل طبيب بالمعطف الأبيض يبتسم وذراعيه متقاطعتان" class="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover" height="320" src="imgs/me.jpg" width="320"/>
+   </div>
+   <!-- Right text content -->
+   <div class="text-center md:text-right max-w-xl">
+    <p class="text-sm font-semibold" id="weSupportText">
+     <span class="text-red-600">
+      We
+     </span>
+     <span>
+      Support
+     </span>
+     <span class="text-green-600">
+      Palestine
+     </span>
+    </p>
+    <p class="text-2xl font-normal mt-1" id="familyText">
+     عائلة
+    </p>
+    <p class="text-5xl font-extrabold mt-1" id="nameText">
+     <span class="text-black" id="nameBlack">
+      م/ محمد
+     </span>
+     <span class="text-cyan-600" id="nameCyan">
+      الشافعي
+     </span>
+    </p>
+    <p class="text-base font-semibold mt-1" id="welcomeText">
+     أهلاً
+     <span class="text-yellow-400" id="welcomeYellow">
+      دفعة ٢٠٢٥
+     </span>
+    </p>
+    <p class="text-xl font-semibold mt-4" id="bioText1">
+     لكل ما يتعلق
+     <span class="text-black" id="bioBlack">
+      ب
+     </span>
+     <span class="text-yellow-400" id="bioYellow">
+      منهج العلوم
+     </span>
+    </p>
+    <p class="text-xl font-semibold mt-1 text-cyan-600" id="bioText2">
+     للمرحلة الاعدادية
+    </p>
+   </div>
+  </main>
+  <div class="min-h-screen flex flex-col justify-center items-center px-6 py-12 gap-12 md:flex-row md:gap-24">
+    <!-- Left side carousel -->
+    <div class="relative bg-[#14b6e9] rounded-xl shadow-lg max-w-md w-full p-6 flex flex-col items-center" style="font-feature-settings: 'liga' 0">
+     <img alt="شاب يرتدي قبعة وبجاكيت بني يقرأ كتاب في مختبر مع هيكل عظمي في الخلفية مع تأثيرات فيروس كورونا وثلج على الجزء العلوي من الصورة" class="rounded-md w-full max-w-[600px] object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/faeaa6cc-c794-4f69-928b-aa850f6e5bc1.jpg" width="600"/>
+     <!-- Snow effect on top -->
+     <!-- <img alt="ثلج أبيض متجمد على الجزء العلوي من الصورة" class="absolute top-0 left-0 right-0 mx-auto max-w-[600px] rounded-t-xl pointer-events-none" height="50" src="https://storage.googleapis.com/a1aa/image/db5ce21f-791c-4ea7-3d71-97ab3a808156.jpg" style="margin-top: 0.25rem; height: 50px;" width="600"/> -->
+     <!-- Left arrow -->
+     <button aria-label="السابق" class="absolute top-1/2 -translate-y-1/2 left-4 text-white text-2xl cursor-pointer select-none">
+      <i class="fas fa-chevron-left">
+      </i>
+     </button>
+     <!-- Right arrow -->
+     <button aria-label="التالي" class="absolute top-1/2 -translate-y-1/2 right-4 text-white text-2xl cursor-pointer select-none">
+      <i class="fas fa-chevron-right">
+      </i>
+     </button>
+     <!-- Text box below image -->
+     <div class="bg-[#f0f6fb] rounded-lg mt-6 p-4 max-w-[600px] w-full text-center text-gray-700 text-sm leading-relaxed">
+      <h3 class="font-semibold text-base mb-2">
+       المراجعات النهائية لدفعة 2025 عام وأزهر
+       <span class="text-xl">
+        ❤️💪
+       </span>
+      </h3>
+      <p class="text-xs text-gray-500 mb-3 leading-tight">
+       هو
+       <span class="font-semibold text-gray-600">
+        هتتحصل
+       </span>
+       عظمه بس ايه هي .. لاد مش هتقولك دلوفت
+           كل اللي نقدر نقوله اشترك ونت مطمن إن
+       <span class="font-semibold text-gray-600">
+        المنهج
+       </span>
+       في شوال وبإذن الله 20 من 20
+           في جيبك ❤️📚
+      </p>
+      <button class="bg-[#14b6e9] text-white text-xs font-semibold rounded-md px-4 py-1 mx-auto block" type="button">
+       350 جنيه
+      </button>
+     </div>
+     <!-- Pagination dot -->
+     <div class="mt-6">
+      <span aria-label="صفحة 1" class="inline-block w-4 h-4 rounded-full bg-white opacity-90">
+      </span>
+     </div>
+    </div>
+    <!-- Right side text -->
+    <div class="max-w-xl text-center md:text-right">
+     <h2 class="text-3xl font-semibold mb-4 flex justify-center md:justify-end items-center gap-2 text-gray-900">
+      <span  class="inline-block" height="24" >&#10004;</span>
+      الكورسات
+      <span class="text-[#14b6e9]">
+       المُقترحة
+      </span>
+      <span  class="inline-block" height="24" >&#10004;</span>
+     </h2>
+     <p class="text-gray-600 text-sm leading-relaxed max-w-md mx-auto md:mx-0">
+      استعد للتفوق مع أفضل الكورسات على منصة م: محمد الشافعي الكورسات دي مش بس هتسهل عليك المذاكرة، لكنها كمان هتخليك مميز بين زمالك!
+     </p>
+    </div>
+   </div>
+   <div class="max-w-[1400px] mx-auto didi">
+    <h2 class="text-4xl font-extrabold text-[#0f1c38] mb-12 relative inline-block" style="text-shadow: 3px 3px 0 #d9d9d9">
+     السنوات الدراسية
+    </h2>
+    <div class="flex flex-col md:flex-row gap-8 md:gap-6 justify-center items-stretch">
+     <!-- Card 3 -->
+     <div class="max-w-sm rounded-md shadow-lg overflow-hidden flex flex-col">
+      <div class="relative">
+       <img alt="رجل عربي يبتسم ويقف بجانب هيكل عظمي في مختبر علم الاجتماع مع رفوف خشبية في الخلفية" class="w-full h-auto object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/1631acfa-5282-473f-7061-29e097133a9b.jpg" width="600"/>
+       <div class="absolute top-4 right-4 bg-[#0a4f3f] w-12 h-12 rounded-full flex items-center justify-center text-white font-extrabold text-xl select-none">
+        3
+       </div>
+       <div class="absolute top-4 left-4 text-white font-extrabold text-lg leading-tight select-none">
+        تالتة
+        <br/>
+        اعدادي
+       </div>
+      </div>
+      <div class="bg-white p-4 border-t border-t-[#3bc4b4] flex flex-col flex-grow shadow-md">
+       <h3 class="text-[#0f1c38] font-semibold text-base mb-2">
+        الصف الدراسي الثالث
+       </h3>
+       <p class="text-gray-400 text-sm leading-relaxed">
+        جميع كورسات الصف الثالث الاعدادي
+       </p>
+      </div>
+     </div>
+     <!-- Card 2 -->
+     <div class="max-w-sm rounded-md shadow-lg overflow-hidden flex flex-col">
+      <div class="relative">
+       <img alt="رجل عربي يبتسم ويحمل نموذج دماغ في مختبر علم النفس مع أدوات قديمة معلقة على الحائط" class="w-full h-auto object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/716e843d-7487-46fd-c521-7f1172862a33.jpg" width="600"/>
+       <div class="absolute top-4 right-4 bg-[#b9970e] w-12 h-12 rounded-full flex items-center justify-center text-white font-extrabold text-xl select-none">
+        2
+       </div>
+       <div class="absolute top-4 left-4 text-white font-extrabold text-lg leading-tight select-none">
+        تانية
+        <br/>
+        اعدادي
+       </div>
+      </div>
+      <div class="bg-white p-4 border-t border-t-[#3bc4b4] flex flex-col flex-grow shadow-md">
+       <h3 class="text-[#0f1c38] font-semibold text-base mb-2">
+        الصف الدراسي الثاني
+       </h3>
+       <p class="text-gray-400 text-sm leading-relaxed">
+        جميع كورسات الصف الثاني الاعدادي
+       </p>
+      </div>
+     </div>
+     <!-- Card 1 -->
+     <div class="max-w-sm rounded-md shadow-lg overflow-hidden flex flex-col">
+      <div class="relative">
+       <img alt="رجل عربي يبتسم ويرتدي معطف مختبر أبيض ويجلس بجانب مجهر في مختبر علم الأحياء مع رفوف خشبية في الخلفية" class="w-full h-auto object-cover" height="400" src="/imgs/Blue Neon Simple Technology Logo.png" width="600"/>
+       <div class="absolute top-4 right-4 bg-[#0a72c4] w-12 h-12 rounded-full flex items-center justify-center text-white font-extrabold text-xl select-none">
+        1
+       </div>
+       <div class="absolute top-4 left-4 text-white font-extrabold text-lg leading-tight select-none">
+        أولى
+        <br/>
+        اعدادي
+       </div>
+      </div>
+      <div class="bg-white p-4 border-t border-t-[#3bc4b4] flex flex-col flex-grow shadow-md">
+       <h3 class="text-[#0f1c38] font-semibold text-base mb-2">
+        الصف الدراسي الأول
+       </h3>
+       <p class="text-gray-400 text-sm leading-relaxed">
+        جميع كورسات الصف الأول الاعدادي
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer class="w-full py-8 flex flex-col items-center text-[#9ca3af]">
+    <div class="flex space-x-6 space-x-reverse mb-8">
+     <a class="flex items-center justify-center w-12 h-12 rounded-full bg-[#1da1f2] relative" href="#">
+      <img alt="Facebook logo white letter F on blue circle background" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" height="24" src="https://storage.googleapis.com/a1aa/image/bc2df9de-8af8-4212-0cda-517c7cefd246.jpg" width="24"/>
+     </a>
+     <a class="icon facebook flex items-center justify-center w-12 h-12 rounded-full bg-[#c13584] relative" href="#">
+      <!-- <img alt="Instagram logo white letter I on pink circle background" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" height="24" src="https://storage.googleapis.com/a1aa/image/ee18da45-e8b1-43e5-2a84-0cd2b9bc6d08.jpg" width="24"/> -->
+     </a>
+     <a class="flex items-center justify-center w-12 h-12 rounded-full bg-[#ff0000] relative" href="#">
+      <img alt="YouTube logo white letter Y on red circle background" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" height="24" src="https://storage.googleapis.com/a1aa/image/5886470a-00b0-47ba-8dde-09b91dbad8ae.jpg" width="24"/>
+     </a>
+    </div>
+    <hr class="border-[#2c3747] w-[360px] mb-6"/>
+    <p class="text-[#d1d5db] text-sm mb-2">
+     <span>
+      💖
+     </span>
+     تم صنع هذه المنصة بهدف تهيئة الطالب ل كامل جوانب المرحلة الاعدادية و ما بعدها
+     <span>
+      💖
+     </span>
+    </p>
+    <p class="text-[#9ca3af] text-sm">
+     &lt;
+     <span class="text-[#a78bfa]">
+      Developed By
+     </span>
+     &gt; mohamed elshafey &lt;
+     <span class="text-[#a78bfa]">
+      All Copy Rights Reserved @2025
+     </span>
+     &gt;
+    </p>
+   </footer>
+  <script>
+   const darkModeToggle = document.getElementById("darkModeToggle");
+    const body = document.getElementById("body");
+    const header = document.getElementById("header");
+    const weSupportText = document.getElementById("weSupportText");
+    const familyText = document.getElementById("familyText");
+    const nameBlack = document.getElementById("nameBlack");
+    const nameCyan = document.getElementById("nameCyan");
+    const welcomeText = document.getElementById("welcomeText");
+    const welcomeYellow = document.getElementById("welcomeYellow");
+    const bioText1 = document.getElementById("bioText1");
+    const bioBlack = document.getElementById("bioBlack");
+    const bioYellow = document.getElementById("bioYellow");
+    const bioText2 = document.getElementById("bioText2");
+    const loginLink = document.getElementById("loginLink");
+    const lostAccountBtn = document.getElementById("lostAccountBtn");
+    const darkModeIcon = document.getElementById("darkModeIcon");
+
+    darkModeToggle.addEventListener("click", () => {
+      const isDark = body.classList.toggle("bg-gray-900");
+      body.classList.toggle("text-white");
+      header.classList.toggle("border-yellow-400");
+      header.classList.toggle("border-yellow-600");
+      // Adjust colors for dark mode
+      if (isDark) {
+        // Top bar button and link colors
+        lostAccountBtn.classList.remove("bg-yellow-400");
+        lostAccountBtn.classList.add("bg-yellow-600");
+        loginLink.classList.remove("text-cyan-500");
+        loginLink.classList.add("text-cyan-300");
+
+        // Text colors changes
+        weSupportText.querySelector("span:nth-child(1)").classList.remove("text-red-600");
+        weSupportText.querySelector("span:nth-child(1)").classList.add("text-red-400");
+        weSupportText.querySelector("span:nth-child(3)").classList.remove("text-green-600");
+        weSupportText.querySelector("span:nth-child(3)").classList.add("text-green-400");
+
+        familyText.classList.remove("text-gray-900");
+        familyText.classList.add("text-gray-100");
+
+        nameBlack.classList.remove("text-black");
+        nameBlack.classList.add("text-gray-200");
+        nameCyan.classList.remove("text-cyan-600");
+        nameCyan.classList.add("text-cyan-400");
+
+        welcomeYellow.classList.remove("text-yellow-400");
+        welcomeYellow.classList.add("text-yellow-300");
+
+        bioBlack.classList.remove("text-black");
+        bioBlack.classList.add("text-gray-200");
+        bioYellow.classList.remove("text-yellow-400");
+        bioYellow.classList.add("text-yellow-300");
+
+        bioText2.classList.remove("text-cyan-600");
+        bioText2.classList.add("text-cyan-400");
+
+        darkModeIcon.classList.remove("fa-moon");
+        darkModeIcon.classList.add("fa-sun");
+        darkModeToggle.classList.remove("bg-cyan-400");
+        darkModeToggle.classList.add("bg-yellow-400");
+      } else {
+        lostAccountBtn.classList.remove("bg-yellow-600");
+        lostAccountBtn.classList.add("bg-yellow-400");
+        loginLink.classList.remove("text-cyan-300");
+        loginLink.classList.add("text-cyan-500");
+
+        weSupportText.querySelector("span:nth-child(1)").classList.remove("text-red-400");
+        weSupportText.querySelector("span:nth-child(1)").classList.add("text-red-600");
+        weSupportText.querySelector("span:nth-child(3)").classList.remove("text-green-400");
+        weSupportText.querySelector("span:nth-child(3)").classList.add("text-green-600");
+
+        familyText.classList.remove("text-gray-100");
+        familyText.classList.add("text-gray-900");
+
+        nameBlack.classList.remove("text-gray-200");
+        nameBlack.classList.add("text-black");
+        nameCyan.classList.remove("text-cyan-400");
+        nameCyan.classList.add("text-cyan-600");
+
+        welcomeYellow.classList.remove("text-yellow-300");
+        welcomeYellow.classList.add("text-yellow-400");
+
+        bioBlack.classList.remove("text-gray-200");
+        bioBlack.classList.add("text-black");
+        bioYellow.classList.remove("text-yellow-300");
+        bioYellow.classList.add("text-yellow-400");
+
+        bioText2.classList.remove("text-cyan-400");
+        bioText2.classList.add("text-cyan-600");
+
+        darkModeIcon.classList.remove("fa-sun");
+        darkModeIcon.classList.add("fa-moon");
+        darkModeToggle.classList.remove("bg-yellow-400");
+        darkModeToggle.classList.add("bg-cyan-400");
+      }
+    });
+  </script>
+ </body>
+</html>
